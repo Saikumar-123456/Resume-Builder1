@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ResumeCraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <h1>Resume<span>Craft</span></h1>
+    <p>Create professional resumes in minutes</p>
+</header>
+
+<!-- Main Container -->
+<div class="container">
+
+    <!-- Build Resume Section -->
+    <section class="card">
+        <h2>Build Your Resume</h2>
+
+        <label>Choose Template:</label>
+        <div class="radio-group">
+            <label><input type="radio" name="template" checked> Professional</label>
+            <label><input type="radio" name="template"> Modern</label>
+            <label><input type="radio" name="template"> Creative</label>
+        </div>
+
+        <label>Full Name</label>
+        <input type="text" value="Eleanor Vance">
+
+        <label>Job Title / Headline</label>
+        <input type="text" value="Senior Product Manager">
+
+        <label>Email</label>
+        <input type="email" value="eleanor.vance@example.com">
+
+        <label>Phone</label>
+        <input type="text" value="+1 (555) 987-6543">
+
+        <label>Professional Summary</label>
+        <textarea>
+Results-driven Senior Product Manager with 8 years of experience leading cross-functional teams from ideation to launch. Specializing in SaaS platforms, market analysis, and user-centric design. Delivered a 25% increase in annual recurring revenue (ARR) over two years.
+        </textarea>
+
+        <label>Work Experience</label>
+        <textarea>
+Senior Product Manager, Innovatech Solutions | 2020 - Present
+- Led the launch of three major product lines, increasing market penetration by 40%.
+- Conducted A/B testing and user interviews to drive design decisions.
+- Managed a $5M annual budget.
+
+Product Specialist, Global Dynamics | 2017 - 2020
+- Defined product requirements and managed backlog for a B2B platform.
+- Collaborated with engineering to reduce time-to-market by 15%.
+        </textarea>
+
+        <label>Education</label>
+        <textarea>
+MBA, Harvard Business School | 2017
+B.A. in Economics, Stanford University | 2015
+        </textarea>
+
+        <label>Skills (Comma-separated)</label>
+        <input type="text" value="Product Management, Agile/Scrum, SaaS, Market Analysis, JIRA, SQL, Leadership, Figma, Design Thinking">
+
+        <button>Update Resume Preview</button>
+    </section>
+
+    <!-- Resume Preview -->
+    <section class="card preview">
+        <h2>Resume Preview</h2>
+
+        <h1 class="name">Eleanor Vance</h1>
+        <h3 class="title">Senior Product Manager</h3>
+
+        <p class="contact">📧 eleanor.vance@example.com | ☎ +1 (555) 987-6543</p>
+
+        <h4>Professional Summary</h4>
+        <p>
+            Results-driven Senior Product Manager with 8 years of experience leading cross-functional teams from ideation to launch. Specializing in SaaS platforms, market analysis, and user-centric design.
+        </p>
+
+        <h4>Work Experience</h4>
+        <ul>
+            <li>Led the launch of three major product lines, increasing market penetration by 40%.</li>
+            <li>Conducted A/B testing and user interviews.</li>
+            <li>Managed a $5M annual budget.</li>
+        </ul>
+
+        <h4>Education</h4>
+        <p>MBA, Harvard Business School (2017)</p>
+        <p>B.A. Economics, Stanford University (2015)</p>
+
+        <h4>Skills</h4>
+        <div class="skills">
+            <span>Product Management</span>
+            <span>Agile/Scrum</span>
+            <span>SaaS</span>
+            <span>Market Analysis</span>
+            <span>JIRA</span>
+            <span>SQL</span>
+            <span>Leadership</span>
+            <span>Figma</span>
+            <span>Design Thinking</span>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>

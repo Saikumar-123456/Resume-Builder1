@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fb;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #4e6ef2, #7b2ff7);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header span {
+    color: #ff4f9a;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    border-bottom: 2px solid #4e6ef2;
+    padding-bottom: 5px;
+}
+
+/* Inputs */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+/* Radio buttons */
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+/* Button */
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #4e6ef2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3c58d8;
+}
+
+/* Resume Preview */
+.preview .name {
+    margin-bottom: 0;
+}
+
+.preview .title {
+    margin-top: 5px;
+    color: gray;
+}
+
+.preview .contact {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills span {
+    background: #eef1ff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
